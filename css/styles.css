@@ -1,0 +1,76 @@
+div.jumbotron {
+  border-radius: 120px;
+  border-style: solid;
+  border-color: black;
+  background-color: black;
+}
+
+
+#alarmBox {
+  color: red;
+  text-align: center;
+  background-color: black;
+  font-size: 100px;
+  display: inline-block;
+  font-family: Digital-7 ,monospace;
+  margin-top: 50px;
+  border-radius: 120px;
+  border-style: solid;
+  border-color: black;
+  border: 0;
+  margin-left: 10%;
+}
+
+
+
+div#setAlarm {
+  background-color: black;
+  border-radius: 180px;
+  border-style: solid;
+  border-color: black;
+
+}
+
+.blink_me {
+  animation: blinker 1s linear infinite;
+}
+
+.blink_me2 {
+  animation: blinker 4s linear infinite;
+}
+
+@keyframes blinker {
+  50% { opacity: 0.0; }
+}
+
+#time, #hourDiv, #minuteDiv, #timeZone {
+  display: inline-block;
+  font-size: 200px;
+}
+select {
+  min-width: 200px;
+  background: transparent;
+  width: inherit;
+  padding: 5px;
+  line-height: 2;
+  border: 0;
+  border-radius: 0;
+  /*height: 34px;*/
+  -webkit-appearance: menulist-button;
+}
+
+.btn-success {
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 20px;
+}
+
+#test {
+  text-align: center;
+  margin-left: 200px;
+}
+
+#setAlarm {
+  font-size: 50px;
+  color: green;
+}

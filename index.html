@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="build/css/vendor.css">
+  <link rel="stylesheet" href="/css/styles.css">
+  <script src="build/js/vendor.min.js"></script>
+  <script type="text/javascript" src="build/js/app.js"></script>
+  <title>Alarm Clock</title>
+</head>
+
+<body>
+  <div id=alarmBox>
+    <div class="jumbotron">
+      <!-- <span class="pst">Pacific Standard Time</span> -->
+      <div class="container" id="time">
+        <div class="row">
+          <div class="blink_me2" id="hourDiv">
+          </div>
+          <span class="blink_me">:</span>
+
+        <div class="blink_me2" id="minuteDiv">
+        </div>
+        </div>
+      </div>
+    </div>
+
+  <div id="alarm">
+    <h1>ALARM IS UP!</h1>
+  </div>
+  <div id="alarm-set"></div>
+  <div class="jumbotron" id="setAlarm">
+    <form id="alarm-form" class="form-inline">
+      <div class="form-group">
+        <label for="hour">ALARM:</label> <br>
+        <select id='hour' name='hour' type='text'>
+          <option value="" disabled selected>HOUR</option>
+          <option id="test" value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+        </select>
+        <select id='minute' name='minute' type='text'>
+          <option value="" disabled selected>MINUTE</option>
+          <option value="00">:00</option>
+          <option value="05">:05</option>
+          <option value="10">:10</option>
+          <option value="15">:15</option>
+          <option value="20">:20</option>
+          <option value="25">:25</option>
+          <option value="30">:30</option>
+          <option value="35">:35</option>
+          <option value="40">:40</option>
+          <option value="45">:45</option>
+          <option value="50">:50</option>
+          <option value="55">:55</option>
+        </select>
+      </div> <br>
+      <button class="btn btn-success" type="submit">SET ALARM</button>
+    </form>
+
+  </div>
+  <div class="newAlarm">
+    <button id="newAlarmBtn" class="btn btn-success" type="click">NEW ALARM</button>
+  </div>
+
+  <div class="snooze">
+    <button id="snoozeBtn" class="btn btn-success" type="click">SNOOZE</button>
+  </div>
+
+</div>
+</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "name": "ping-pong3",
+  "description": "pingPong3000",
+  "main": "index.js",
+  "authors": [
+    "Jake"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/JakeOrichmond/PingPong4000",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.4",
+    "bootstrap": "^3.3.6",
+    "moment": "^2.13.0"
+  }
+}
